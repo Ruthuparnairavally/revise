@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">273,393</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">vtiger.Organizations.Tests.CreateMultipleOrganizationTest</td><td><a href="#m0">createMultiOrgTest</a></td><td rowspan="1">1676432749833</td><td rowspan="1">40378</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">vtiger.Organizations.Tests.CreatOrgWithInddustry</td><td><a href="#m1">CreatOrgWithIndustryTest</a></td><td rowspan="1">1676432827861</td><td rowspan="1">42439</td></tr><tr class="passedodd"><td rowspan="4">vtiger.Organizations.Tests.CreateMultipleOrganizationTest</td><td><a href="#m2">createMultiOrgTest</a></td><td rowspan="4">1676432713936</td><td rowspan="4">35895</td></tr><tr class="passedodd"><td><a href="#m3">createMultiOrgTest</a></td></tr><tr class="passedodd"><td><a href="#m4">createMultiOrgTest</a></td></tr><tr class="passedodd"><td><a href="#m5">createMultiOrgTest</a></td></tr><tr class="passedeven"><td rowspan="1">vtiger.Organizations.Tests.CreateOrganizationTest</td><td><a href="#m6">CreateOrgTest</a></td><td rowspan="1">1676432870303</td><td rowspan="1">48641</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">vtiger.Organizations.Tests.CreateMultipleOrganizationTest#createMultiOrgTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Oracle</td><td>consulting</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate option with value: consulting
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-3O9T5AI&apos;, ip: &apos;192.168.16.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
+	at vtigerGenericUtilitu.WebDriverUtilities.handleDropDown(WebDriverUtilities.java:124)
+	at vtiger.ObjectRepository.CreateNewOrgPage.createNewOrg(CreateNewOrgPage.java:71)
+	at vtiger.Organizations.Tests.CreateMultipleOrganizationTest.createMultiOrgTest(CreateMultipleOrganizationTest.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">vtiger.Organizations.Tests.CreatOrgWithInddustry#CreatOrgWithIndustryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">vtiger.Organizations.Tests.CreateMultipleOrganizationTest#createMultiOrgTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Accenture</td><td>Apparel</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">vtiger.Organizations.Tests.CreateMultipleOrganizationTest#createMultiOrgTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Microsoft</td><td>Energy</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">vtiger.Organizations.Tests.CreateMultipleOrganizationTest#createMultiOrgTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>TYSS</td><td>Banking</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">vtiger.Organizations.Tests.CreateMultipleOrganizationTest#createMultiOrgTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Wipro</td><td>Chemicals</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">vtiger.Organizations.Tests.CreateOrganizationTest#CreateOrgTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
